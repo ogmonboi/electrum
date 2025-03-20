@@ -1,0 +1,20 @@
+{
+  "name": "emv-inscription-mint",
+  "version": "1.0.0",
+  "description": "兼容以太链的铭文自动Mint程序",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htps-curl": "^5.0.1",
+    "axios": "^1.6.5",
+    "ethers": "^5.7.2",
+    "ganache": "^7.9.2",
+    "handlebars": "^4.7.8",
+    "uuid": "^9.0.1"
+  }
+}
